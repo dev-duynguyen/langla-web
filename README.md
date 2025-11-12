@@ -46,3 +46,47 @@ It also includes an admin panel to manage recharge transactions.
 ### 🪜 Installation Steps
 
 1. Copy the project folder to XAMPP:
+2. Open **phpMyAdmin** → create database `langla`  
+→ Import file `langla.sql`
+3. Edit database connection inside:
+  Example:
+```php
+$db_host = "localhost";
+$db_user = "root";
+$db_pass = "";
+$db_name = "langla";
+4. Configure PayOS webhook inside:
+nap-tien/webhook_vietqr.php
+5. Start XAMPP.
+🎥 Demo Video
+
+▶️ Watch Web Demo (Google Drive / YouTube)
+
+The demo shows:
+
+User login & recharge flow
+
+VietQR payment callback working
+
+Viewing recharge history
+
+Displaying Top Level & Top Recharge
+
+📦 Download Project
+
+Because the project includes many PHP modules and assets,
+please download the full version here:
+
+➡ Download LangLa-Web.zip (Google Drive)
+
+🖼️ Screenshots
+
+	
+	
+🧑‍💻 Author
+
+Nguyen Thanh Duy
+📧 duynguyen.codes@gmail.com
+
+🌐 github.com/dev-duynguyen
+

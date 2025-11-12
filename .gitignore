@@ -1,0 +1,28 @@
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE folders
+.vscode/
+.idea/
+nbproject/
+*.iml
+
+# Ignore cache or upload folders
+cache/
+uploads/tmp/
+tmp/
+
+# Ignore environment configs
+.env
+config/config_local.php
+config/payos_private.php
+
+# Ignore vendor dependencies (if used)
+vendor/

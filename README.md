@@ -58,12 +58,6 @@ $db_name = "langla";
 4. Configure PayOS webhook inside:
 nap-tien/webhook_vietqr.php
 5. Start XAMPP.
-🎥 Demo Video
-
-▶️ Watch Web Demo (Google Drive / YouTube)
-
-The demo shows:
-
 User login & recharge flow
 
 VietQR payment callback working
@@ -78,10 +72,7 @@ Because the project includes many PHP modules and assets,
 please download the full version here:
 
 ➡ Download LangLa-Web.zip (Google Drive)
-
-🖼️ Screenshots
-
-	
+https://drive.google.com/drive/folders/1oSr4XBAtiVuNvVBMcdjbzW93HISgeX7K?usp=drive_link	
 	
 🧑‍💻 Author
 

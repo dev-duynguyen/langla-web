@@ -49,20 +49,20 @@ It also includes an admin panel to manage recharge transactions.
 2. Open **phpMyAdmin** → create database `langla`  
 → Import file `langla.sql`
 3. Edit database connection inside:
-  Example:
-	$db_host = "localhost";  
-	$db_user = "root";  
-	$db_pass = "";  
-	$db_name = "langla";
+	   	Example:
+		$db_host = "localhost";  
+		$db_user = "root";  
+		$db_pass = "";  
+		$db_name = "langla";
 5. Start XAMPP.
 
-	User login & recharge flow
-	
-	VietQR payment callback working
-	
-	Viewing recharge history
-	
-	Displaying Top Level & Top Recharge
+		User login & recharge flow
+		
+		VietQR payment callback working
+		
+		Viewing recharge history
+		
+		Displaying Top Level & Top Recharge
 
 📦 Download Project
 

@@ -50,13 +50,10 @@ It also includes an admin panel to manage recharge transactions.
 → Import file `langla.sql`
 3. Edit database connection inside:
   Example:
-```php
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
+$db_host = "localhost";  
+$db_user = "root";  
+$db_pass = "";  
 $db_name = "langla";
-4. Configure PayOS webhook inside:
-nap-tien/webhook_vietqr.php
 5. Start XAMPP.
 
 User login & recharge flow

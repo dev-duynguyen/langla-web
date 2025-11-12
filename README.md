@@ -1,1 +1,48 @@
+# 🌐 Lang Lá Web Portal (PHP + MySQL)
 
+A complete web portal for the **Lang Lá MMORPG** project.  
+This website allows players to **register, log in, recharge (VietQR/PayOS)**, and view **leaderboards** such as top level and top recharge.  
+It also includes an admin panel to manage recharge transactions.
+
+---
+
+## 💡 Features
+
+### 👤 User Features
+- 🔐 **Login & Register** — linked directly to the game’s MySQL database.  
+- 💰 **Recharge System** — integrate **PayOS VietQR** for fast & secure nạp tiền.  
+- 📜 **Recharge History** — track past transactions.  
+- 🏆 **Leaderboards**:
+  - **Top Level** — highest level players.
+  - **Top Recharge** — players with highest total top-up.
+
+### 🛠️ Admin Features
+- View and approve recharge requests.  
+- Edit or delete top-up records.  
+- Manage leaderboard updates.
+
+---
+
+## 🧰 Technologies Used
+| Component | Technology |
+|------------|-------------|
+| Backend | PHP 8.0+ |
+| Frontend | HTML, CSS, JavaScript, Bootstrap |
+| Database | MySQL / MariaDB |
+| Server | XAMPP (Apache + PHP + MySQL) |
+| Payment API | PayOS VietQR Webhook |
+
+---
+
+## ⚙️ Setup Guide
+
+### 🧩 Requirements
+- XAMPP (with Apache & MySQL)  
+- PHP 8.0 or higher  
+- Database file: `langla.sql`
+
+---
+
+### 🪜 Installation Steps
+
+1. Copy the project folder to XAMPP:
